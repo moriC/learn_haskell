@@ -1,0 +1,1 @@
+boomBangs xs = [if x < 10 then "boom" else "Bang" | x <- xs, odd x]
